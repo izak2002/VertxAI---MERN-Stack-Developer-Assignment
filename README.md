@@ -1,22 +1,5 @@
-# VertxAI---MERN-Stack-Developer-Assignment
-A community hub for discovering educational content, interacting with a curated feed, and earning credit points for engagement.
-Community Learning Hub
-Description: A community hub where users can discover educational content, interact with a curated feed, and earn credit points for engagement.
-Core Features:
-User Authentication: Register/Login using JWT.
-Credit Points System:
-Earn points for watching content, feed engagement, and sharing.
-Spend credits to unlock premium resources or events.
-Transaction tracking with timestamps and purpose.
-Feed Aggregator:
-Aggregates feeds from APIs (Twitter, Reddit, LinkedIn).
-Displays content cards with preview, title, and source.
-User actions: save, share, and report (flag for review).
-Admin/Moderator Panel:
-Review reports.
-Manage content and users.
-View stats (e.g., top saved content, most active users).
-Deployment:
-Backend: Express.js API with MongoDB (deployed on GCP).
-Frontend: React.js + Tailwind CSS (deployed on Firebase or GCP).
-Store content metadata and user preferences in MongoDB.
+Community Learning Hub, is envisioned as a community platform where users can explore educational content, engage with a curated feed, and earn credit points for their participation.
+
+Its core features include user authentication via JWT, a credit points system that rewards users for actions like watching content, engaging with the feed, and sharing, and a feed aggregator that pulls content from APIs like Twitter, Reddit, and LinkedIn, displaying content in a user-friendly format.
+
+The platform also includes an admin/moderator panel for reviewing reports, managing content and users, and viewing platform statistics. The backend is built using an Express.js API with MongoDB, and is deployed on GCP, while the frontend is developed with React.js and Tailwind CSS, and is deployed on Firebase or GCP.
